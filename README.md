@@ -12,7 +12,7 @@ devtools::install_github("SalasLab/oxBSlabel")
 library(oxBSlabel)
 
 
-##Example
+## Example
 load("data/example_rgset.RDATA")
 oxBSlabel(example_rgset)
 
