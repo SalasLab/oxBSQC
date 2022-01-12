@@ -25,10 +25,13 @@ library(oxBSQC)
 
 
 ## Example
+
+#### "data/oxBScut_example.RDATA" is in the oxBSQC package folder, which can be located using ".libPaths()"
 load("data/oxBScut_example.RDATA")
 
 oxBScut(RCD_5hmC,RCD_poobha)
 
+#### "data/oxBSlabel_example.RDATA" is in the oxBSQC package folder, which can be located using ".libPaths()"
 load("data/oxBSlabel_example.RDATA")
 
 oxBSlabel(example_rgset)
